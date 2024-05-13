@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: max-content;
+}
+
+.container {
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  width: 1350px;
+}
+.container .Sidebar {
+  background: #fff;
+  border-top-left-radius: 22px;
+  box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.0784313725);
+  width: 90px;
+  row-gap: 20px;
+  height: 800px;
+}
+.container .Sidebar .Sidebar-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .Sidebar .Sidebar-img img {
+  margin-bottom: 20px;
+}
+
+.center-page {
+  padding: 15px;
+}
+.center-page .center-beetwen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.center-page .center-beetwen .btn-center {
+  margin-left: 300px;
+}
+.center-page .center-beetwen button {
+  margin-left: 12px;
+  box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.0196078431);
+  border: none;
+  border: 1px solid #E8E7E7;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.blood-div {
+  display: flex;
+  gap: 20px;
+}
+.blood-div .blood-card {
+  width: 213px;
+  height: 262px;
+  box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.0784313725);
+  border: 1px solid #E8E7E7;
+  border-radius: 12px;
+}
+.blood-div .blood-card .top-blood {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.blood-div .blood-card .middle-blood {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.blood-div .blood-card .middle-blood h2 {
+  font-size: 32px;
+}
+.blood-div .blood-card .middle-blood p {
+  margin-left: 12px;
+  color: #818181;
+}
+.blood-div .blood-card .btn-normal {
+  margin-left: 20px;
+}
+.blood-div .blood-card .btn-normal button {
+  border: none;
+  width: 58px;
+  border-radius: 6px;
+  font-weight: bold;
+  height: 23px;
+  background-color: #F8DEBD;
+}
+
+.bmi {
+  background-color: #303030;
+  width: 560px;
+  height: 750px;
+  border-radius: 35px;
+}
+.bmi .top-bmi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.bmi .top-bmi h2 {
+  color: white;
+}
+.bmi .top-bmi select {
+  width: 157px;
+  height: 48px;
+  border: 1px solid #CACACA;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #303030;
+}
+.bmi .theree_div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.bmi .theree_div .he-wi-div .height__div {
+  width: 187px;
+  height: 82px;
+  border-radius: 12px;
+  background-color: #F8DEBD;
+  margin-bottom: 10px;
+}
+.bmi .theree_div .he-wi-div .height__div img {
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.bmi .theree_div .he-wi-div .height__div .sm-height {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.bmi .theree_div .he-wi-div .weight__div {
+  width: 187px;
+  height: 82px;
+  border-radius: 12px;
+  background-color: #D0FBFF;
+}
+.bmi .theree_div .he-wi-div .weight__div img {
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.bmi .theree_div .he-wi-div .weight__div .sm-height {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.bmi .theree_div .dot {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 130px;
+}
+.bmi .theree_div .body-div {
+  width: 283px;
+  height: 184px;
+  border-radius: 12px;
+  background: #4A4949;
+}
+.bmi .theree_div .body-div .body-moss-text {
+  color: #fff;
+  padding-left: 20px;
+}
+.bmi .theree_div .body-div .herz-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bmi .theree_div .body-div .herz-div p {
+  font-size: 24px;
+  color: #fff;
+}
+.bmi .theree_div .body-div .herz-div button {
+  border: none;
+  width: 101px;
+  height: 27px;
+  border-radius: 8px;
+  background-color: #D6FFDD;
+}
+.bmi .theree_div .body-div .gradient-selector {
+  display: flex;
+  justify-content: center;
+}
+.bmi .theree_div .body-div .gradient-selector .gradient-uzi {
+  width: 243px;
+  height: 14px;
+  background: linear-gradient(90deg, #B5D4F1 0%, #81E6DB 37.77%, #E8D284 70.4%, #E2798E 100%);
+  border-radius: 21px;
+}
+.bmi .theree_div .body-div .number-gradient-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.bmi .theree_div .body-div .number-gradient-bottom p {
+  color: #fff;
+}
+
+.hr-div {
+  border: 1px solid #4F4E4E;
+  margin-top: 25px;
+}
+
+.man-part {
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */
