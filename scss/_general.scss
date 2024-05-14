@@ -1,0 +1,9 @@
+*:focus {
+    outline: 3px solid #F3A53F ;
+}
+
+*::selection {
+    // background-color: #D08726;
+    // color: white;
+    user-select: none;
+}
