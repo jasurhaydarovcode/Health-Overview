@@ -369,4 +369,12 @@ i:hover {
   height: 194px;
 }
 
+.graph-img {
+  background: url(../img/centerPage/Acitivity\ Growth.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 210px;
+  margin-top: -20px;
+}
+
 /*# sourceMappingURL=main.css.map */
