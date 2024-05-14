@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
   font-family: Mulish, sans-serif;
   background-color: #E3EEFF;
 }
@@ -43,9 +42,12 @@ body {
   width: 1350px;
 }
 .container .Sidebar {
+  position: relative;
+  left: 18px;
   background-color: #fff;
   border-top-left-radius: 22px;
   border-bottom-left-radius: 22px;
+  border-top-right-radius: 17px;
   box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.0784313725);
   width: 90px;
   row-gap: 20px;
@@ -91,7 +93,8 @@ body {
   border: 1px solid #E8E7E7;
   box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.0784313725);
   margin-top: 20px;
-  width: 679px;
+  margin-left: 13px;
+  width: 629px;
   height: 244px;
   background-color: #fff;
   padding: 10px 25px;
@@ -101,6 +104,7 @@ body {
   justify-content: space-between;
 }
 .center-page .activity-table .activity-top select {
+  text-align: center;
   border: none;
   border: 1px solid #E1E1E1;
   width: 137px;
@@ -110,8 +114,9 @@ body {
 .center-page .info-bottom {
   width: 679px;
   background-color: #fff;
-  height: 68px;
+  height: 48px;
   margin-top: 16px;
+  margin-left: 13px;
   border: 1px solid #E8E7E7;
   border-radius: 12px;
   border: 1px solid #E8E7E7;
@@ -161,6 +166,7 @@ i:hover {
 .blood-div {
   display: flex;
   gap: 20px;
+  margin-left: 14px;
 }
 .blood-div .blood-card {
   background-color: #fff;
@@ -225,89 +231,89 @@ i:hover {
   text-align: center;
   background-color: #303030;
 }
-.bmi .theree_div {
+.bmi .three_div {
   display: flex;
   justify-content: center;
   gap: 10px;
   align-items: center;
 }
-.bmi .theree_div .he-wi-div .height__div {
+.bmi .three_div .he-wi-div .height__div {
   width: 187px;
   height: 82px;
   border-radius: 12px;
   background-color: #F8DEBD;
   margin-bottom: 10px;
 }
-.bmi .theree_div .he-wi-div .height__div img {
+.bmi .three_div .he-wi-div .height__div img {
   margin-left: 40%;
   margin-top: 15px;
 }
-.bmi .theree_div .he-wi-div .height__div .sm-height {
+.bmi .three_div .he-wi-div .height__div .sm-height {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
-.bmi .theree_div .he-wi-div .weight__div {
+.bmi .three_div .he-wi-div .weight__div {
   width: 187px;
   height: 82px;
   border-radius: 12px;
   background-color: #D0FBFF;
 }
-.bmi .theree_div .he-wi-div .weight__div img {
+.bmi .three_div .he-wi-div .weight__div img {
   margin-left: 40%;
   margin-top: 15px;
 }
-.bmi .theree_div .he-wi-div .weight__div .sm-height {
+.bmi .three_div .he-wi-div .weight__div .sm-height {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
-.bmi .theree_div .dot {
+.bmi .three_div .dot {
   position: absolute;
   margin-top: -20px;
   margin-left: 130px;
 }
-.bmi .theree_div .body-div {
+.bmi .three_div .body-div {
   width: 283px;
   height: 184px;
   border-radius: 12px;
   background: #4A4949;
 }
-.bmi .theree_div .body-div .body-moss-text {
+.bmi .three_div .body-div .body-moss-text {
   color: #fff;
   padding-left: 20px;
 }
-.bmi .theree_div .body-div .herz-div {
+.bmi .three_div .body-div .herz-div {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.bmi .theree_div .body-div .herz-div p {
+.bmi .three_div .body-div .herz-div p {
   font-size: 24px;
   color: #fff;
 }
-.bmi .theree_div .body-div .herz-div button {
+.bmi .three_div .body-div .herz-div button {
   border: none;
   width: 101px;
   height: 27px;
   border-radius: 8px;
   background-color: #D6FFDD;
 }
-.bmi .theree_div .body-div .gradient-selector {
+.bmi .three_div .body-div .gradient-selector {
   display: flex;
   justify-content: center;
 }
-.bmi .theree_div .body-div .gradient-selector .gradient-uzi {
+.bmi .three_div .body-div .gradient-selector .gradient-uzi {
   width: 243px;
   height: 14px;
   background: linear-gradient(90deg, #B5D4F1 0%, #81E6DB 37.77%, #E8D284 70.4%, #E2798E 100%);
   border-radius: 21px;
 }
-.bmi .theree_div .body-div .number-gradient-bottom {
+.bmi .three_div .body-div .number-gradient-bottom {
   display: flex;
   justify-content: space-around;
 }
-.bmi .theree_div .body-div .number-gradient-bottom p {
+.bmi .three_div .body-div .number-gradient-bottom p {
   color: #fff;
 }
 
@@ -327,7 +333,7 @@ i:hover {
 }
 .man-part .man-left .info-man {
   width: 145px;
-  height: 89px;
+  height: 86px;
   border: 1px solid #C4C4C4;
   background: #fff;
   border-radius: 12px;
@@ -346,13 +352,14 @@ i:hover {
 }
 .man-part .man-right .man {
   width: 180px;
-  height: 400px;
+  height: 391px;
   background: url(../img/man/Page-1.png) no-repeat;
   background-size: contain;
 }
 .man-part .man-right .man img {
-  margin-left: 43px;
-  width: 43px;
+  margin-left: 41px;
+  width: 41.2px;
+  height: 21.2px;
 }
 .man-part .man-right .man .pinterest {
   position: absolute;
