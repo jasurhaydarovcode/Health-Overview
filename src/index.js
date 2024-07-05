@@ -1,3 +1,5 @@
+import Chart from 'chart.js/auto';
+
 const ctx = document.querySelector('#activityGrowthChart').getContext('2d');
 const activityGrowthChart = new Chart(ctx, {
     type: 'bar',
@@ -41,7 +43,7 @@ const activityGrowthChart = new Chart(ctx, {
             },
             title: {
                 display: true,
-                // text: 'Activity Growth'
+                text: 'Activity Growth'
             }
         }
     }

@@ -29,12 +29,20 @@ body {
   outline: 3px solid #F3A53F;
 }
 
+*::-moz-selection {
+  -moz-user-select: none;
+       user-select: none;
+}
+
 *::selection {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .container {
   width: 100%;
+  height: -moz-max-content;
   height: max-content;
   padding: 20px;
   display: flex;
@@ -68,6 +76,7 @@ body {
   background-color: #FCF9F5;
   padding: 15px;
   width: 800px;
+  height: -moz-max-content;
   height: max-content;
 }
 .center-page .center-beetwen {
@@ -210,6 +219,7 @@ i:hover {
   margin-left: -27px;
   background-color: #303030;
   width: 560px;
+  height: -moz-max-content;
   height: max-content;
   border-radius: 35px;
 }
@@ -373,6 +383,4 @@ i:hover {
   width: 80%;
   margin: auto;
   margin-top: -60px;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
