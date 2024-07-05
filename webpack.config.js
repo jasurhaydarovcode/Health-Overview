@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'development', // Bu qatorni tekshiring yoki qo'shing
-    entry: './src/index.js',
+    entry: './chart.js/activity-growth.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),

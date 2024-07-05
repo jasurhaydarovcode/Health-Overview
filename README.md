@@ -8,10 +8,16 @@
 
 </div>
 
-<!-- Who Create -->
+--- 
 
-<div align=right>
+## Info
 
-## [MARKDOWN SENIOR](https://github.com/jasurhaydarovcode)
+## Webpack assembling the project:
 
-</div>
+#### Enter the `npx webpack` code after changing the webpack code
+
+```bash
+npx webpack
+```
+
+### This command creates the file `dist/bundle.js`.

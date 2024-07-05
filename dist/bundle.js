@@ -15165,9 +15165,9 @@ function styleChanged(style, prevStyle) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!*************************************!*\
+  !*** ./chart.js/activity-growth.js ***!
+  \*************************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var chart_js_auto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! chart.js/auto */ "./node_modules/chart.js/auto/auto.js");
 
