@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
     <!-- Fav Icon -->
     <link rel="icon" href="./img/Standard Collection 10 (1).png">
     <!-- Icons Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="./scss/main.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
 
 
@@ -38,7 +43,7 @@
         </div>
 
 
-            <!-- ======== Center Part ========= -->
+        <!-- ======== Center Part ========= -->
         <div class="center-page">
             <div class="center-beetwen">
                 <div>
@@ -62,7 +67,7 @@
                 <!-- first card -->
                 <div class="blood-card">
                     <!-- top -->
-                    <div class="top-blood">   
+                    <div class="top-blood">
                         <img src="./img/centerPage/Group 31.png" alt="">
                         <p>Blood Sugar</p>
                     </div>
@@ -83,7 +88,7 @@
                 <!-- second card -->
                 <div class="blood-card">
                     <!-- top -->
-                    <div class="top-blood">   
+                    <div class="top-blood">
                         <img src="./img/centerPage/Group 33.png" alt="">
                         <p>Heart Rate</p>
                     </div>
@@ -104,7 +109,7 @@
                 <!-- three card -->
                 <div class="blood-card">
                     <!-- top -->
-                    <div class="top-blood">   
+                    <div class="top-blood">
                         <img src="./img/centerPage/Group 35.png" alt="">
                         <p>Blood Pressure</p>
                     </div>
@@ -136,7 +141,9 @@
                 <div></div>
                 <!-- whats graph -->
                 <div>
-                    <div class="graph-img"></div>
+                    <div class="graph-chart">
+                        <canvas id="activityGrowthChart"></canvas>
+                    </div>
                 </div>
             </div>
             <div class="info-bottom">
@@ -241,5 +248,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./chart.js/activity-growth.js"></script>
 </body>
+
 </html>
