@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development', // Bu qatorni tekshiring yoki qo'shing
-    entry: './chart.js/activity-growth.js',
+    mode: 'development',
+    entry: './src/index.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
@@ -18,6 +18,14 @@ module.exports = {
                         presets: ['@babel/preset-env']
                     }
                 }
+            },
+            {
+                test: /\.scss$/, // SCSS fayllari uchun qoida
+                use: [
+                    'style-loader', // Injects styles into DOM
+                    'css-loader', // Translates CSS into CommonJS
+                    'sass-loader' // Compiles Sass to CSS
+                ]
             }
         ]
     },

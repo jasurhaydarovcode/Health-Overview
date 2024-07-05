@@ -1,4 +1,6 @@
 import Chart from 'chart.js/auto';
+import '.';
+import '../dist/scss/main.scss'; // SCSS faylini import qilish
 
 const ctx = document.querySelector('#activityGrowthChart').getContext('2d');
 const activityGrowthChart = new Chart(ctx, {
